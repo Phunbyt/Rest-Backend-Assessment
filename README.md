@@ -17,6 +17,7 @@ What we are testing
 * Rest API Endpoint Nomenclature
 * JavaScript ECMA standards 
 * Data Persistence (MongoDB)
+* Unit Testing
 
 What you will be given
 --
@@ -32,7 +33,7 @@ Get Ready to Run
 ---
 
 * Pull the assessment repo
-    - > `git clone http://gitea.udux.com/backend-assessments/contact.git`
+    - > `git clone https://gitea.udux.com/backend-assessments/contact.git`
 * Pull up your favorite console and change to this directory
 * Install the projects dependencies 
     - > `npm install`
