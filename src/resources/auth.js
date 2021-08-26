@@ -6,4 +6,5 @@ module.exports = app => {
 
 	/*** BONUS POINTS ***/
 	app.route('/auth/forgotPassword').post(Auth.forgotPassword);
+	app.route("/auth/password-reset/:userId/:token").post(Auth.passwordReset);
 };

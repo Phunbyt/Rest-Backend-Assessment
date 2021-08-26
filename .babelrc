@@ -1,17 +1,18 @@
 {
     "presets": [
         [
-            "env",
+            "@babel/preset-env",
             {
                 "targets": {
-                    "node": "6.11.5"
+                    "node": "14.17.0"
                 }
             }
         ]
     ],
     "plugins": [
-        "transform-class-properties",
-        "transform-object-rest-spread",
-        "transform-export-extensions"
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-proposal-object-rest-spread",
+        "@babel/plugin-proposal-export-default-from",
+        "@babel/plugin-proposal-export-namespace-from"
     ]
 }
